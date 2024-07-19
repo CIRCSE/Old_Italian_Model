@@ -13,7 +13,7 @@ Clone this repository.
 https://github.com/CIRCSE/Old_Italian_Model.git
 cd Old_Italian_Model
 ```
-creare ed attivare un ambiente virtuale python (virtualenv, conda, minicoda, etc.). Here an exemple with virtualenv
+create and activate a python virtual environment (virtualenv, conda, minicoda, etc. Here an exemple with virtualenv
 ```
 virtualenv -p python3 venv
 source venv/bin/activate
