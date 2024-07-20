@@ -81,8 +81,6 @@ python processConllu.py  ./OldItalianModel <conlluFile.conllu> old_italian_out.c
 ```
 
 
-## Cite
-
 ## Contact
 
 For further details, please contact: giovanni.moretti@unicatt.it, claudia.corbetta@unibg.it 
