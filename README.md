@@ -1,24 +1,38 @@
 # Old Italian Model
 
-This repository contains the Stanza model for Old Italian. .....   bla bla
+This repository contains the Stanza model for Old Italian, based on the data from the UD treebank [Italian-Old](https://github.com/UniversalDependencies/UD_Italian-Old) (version 2.14). 
+The model is built on parts of two _Cantiche_ of the _Divine Comedy_ of Dante Alighieri, _Inferno_ and _Purgatorio_, an Old Italian (Florentine) poem composed between approximately 1306 and 1321.
 
 ## Train data
 
-Aggiungrre spiega sui dati di training.
+The training data is composed as follows:
+
+<code>train:</code> 1 748 sentences and 57 898 tokens
+
+  _Inferno_: 902 sentences (OldItalian_Dante_Inferno-1; OldItalian_Dante_Inferno-902) - 28 995 tokens
+  
+  _Purgatorio_: 846 sentences (OldItalian_Dante_Purgatorio-1; OldItalian_Dante_Purgatorio-846) - 28 903 tokens
+      
+<code>dev:</code> 316 sentences and 12 439 tokens
+
+  _Inferno_: 151 sentences (OldItalian_Dante_Inferno-903; OldItalian_Dante_Inferno-1053) - 6 232 tokens
+  
+  _Purgatorio_: 165 sentences (OldItalian_Dante_Purgatorio-847; OldItalian_Dante_Purgatorio-1011) - 6 207 tokens
+
 
 ## How to use
 
-Clone this repository.
+Clone this repository:
 ```
 https://github.com/CIRCSE/Old_Italian_Model.git
 cd Old_Italian_Model
 ```
-create and activate a python virtual environment (virtualenv, conda, minicoda, etc). Here an example with virtualenv
+Create and activate a python virtual environment (virtualenv, conda, minicoda, etc). Here an example with virtualenv:
 ```
 virtualenv -p python3 venv
 source venv/bin/activate
 ```
-or if you installed virtualenv as a module :
+or if you installed virtualenv as a module:
 ```
 python -m virtualenv -p python3 venv
 source venv/bin/activate
@@ -67,6 +81,9 @@ python processConllu.py  ./OldItalianModel <conlluFile.conllu> old_italian_out.c
 ```
 
 
+## Cite
 
+## Contact
 
+For further details, please contact: giovanni.moretti@unicatt.it, claudia.corbetta@unibg.it 
 
